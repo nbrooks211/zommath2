@@ -43,7 +43,6 @@ class Quadratic:
 if __name__ == "__main__":
     q = Quadratic(1, 2, -3)
     print(f"-2 ± √({q.deter()})")
-    print(2*1)
     for a in range(1, 10):
         q.set_nums(a, 2, -3)
         print(f"Solving: {q}")
